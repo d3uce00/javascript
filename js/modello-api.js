@@ -7,5 +7,17 @@ export const apilist = (s, type) => {
     .then((results) => {
         const items = results.Search;
         console.log(items);
+        viewItems(items);
     });
 };
+
+const viewItems = (items) =>{
+    items.map((item) =>{
+        console.group();
+        console.log(item.Title);
+        console.log(item.Year);
+        console.log(item.Type);
+        console.log(item.Poster);
+        console.groupEnd();
+    });
+}
