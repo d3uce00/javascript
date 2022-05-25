@@ -8,3 +8,14 @@ export const listGhost = () => {
         console.log(movies);
     });
 };
+
+const URL_The_Punisher = "https://omdbapi.com/?apikey=fb7170de&s=the_punisher&type=series";
+
+export const listPunisher = () => {
+    fetch(URL_The_Punisher)
+    .then((responseP) => responseP.json())
+    .then((resultsP) => {
+        const series = resultsP.Search;
+        console.log(series);
+    });
+};
