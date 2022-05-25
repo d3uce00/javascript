@@ -9,16 +9,11 @@
 <body>
     <script type="module">
 
-        import {listGhost} from "/js/modello-api.js"
-        import {listPunisher} from "/js/modello-api.js"
-        
-       
-       
-        
-
+        import {apilist} from "./js/modello-api.js"
+        import {CONTENT_TYPE} from "./js/config.js"
         console.log("Inizio esecuzione");
-        listGhost();
-        listPunisher();
+        apilist("The_punisher", "");
+        apilist("The_punisher", "series")
         console.log("Fine esecuzione");        </script>
 </body>
 </html>
