@@ -1,0 +1,27 @@
+body {
+  background-image: url("/assets/resident_logo.jpg");    
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-body {
+  background-color: black;
+  color: crimson;
+  height: 10em;
+}
+.card_movie{
+  background-color: black!important;
+  border: 3px solid black!important;
+  margin-bottom: 1em;
+  padding-bottom: 25%;
+  max-width: 24rem;
+}
+.text{
+    color: rgb(0, 0, 0)!important;
+    text-shadow: -1px 1px 0 rgb(255, 0, 0),
+                  1px 1px 0 rgb(255, 0, 0),
+                 1px -1px 0 rgb(255, 0, 0),
+                -1px -1px 0 rgb(255, 0, 0)!important;
+                text-align: center;
+}

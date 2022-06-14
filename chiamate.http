@@ -2,6 +2,6 @@ GET  http://www.omdbapi.com/?apikey=a862a232&t=kats HTTP/1.1
 
 ###
 
-GET  http://www.omdbapi.com/?apikey=a862a232&t HTTP/1.1
+GET  http://www.omdbapi.com/?apikey=a862a232&s=Resident%20Evil HTTP/1.1
 
 ###
